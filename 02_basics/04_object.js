@@ -45,9 +45,37 @@ const users =[
 ]
 
 users[1].email
-console.log(tenderUser);
+// console.log(tenderUser);
 
-console.log(Object.keys(tenderUser));
-console.log(Object.values(tenderUser));
-console.log(Object.entries(tenderUser));
-console.log(tenderUser.hasOwnProperty('isLogged'));
+// console.log(Object.keys(tenderUser));
+// console.log(Object.values(tenderUser));
+// console.log(Object.entries(tenderUser));
+// console.log(tenderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Avinash"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// const navbar =({company}) => {
+
+// }
+// navbar(company = "Avinash")
+
+// {
+//     name: "Aviinash",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
